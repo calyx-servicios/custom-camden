@@ -1,0 +1,50 @@
+<odoo>
+    <record id="travel_destination_form_view" model="ir.ui.view">
+        <field name="name">Travel Destination</field>
+        <field name="model">travel.destination</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group name="Destination">
+                        <field name="name"/>
+                        <field name="country_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="travel_destination_tree_view" model="ir.ui.view">
+        <field name="name">Travel Destination</field>
+        <field name="model">travel.destination</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name"/>
+                <field name="country_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="action_window_travel_destination" model="ir.actions.act_window">
+        <field name="name">Travel Destination</field>
+        <field name="res_model">travel.destination</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field eval="False" name="view_id"/>
+    </record>
+
+    <menuitem
+        id="menu_travel_root"
+        name="Travels"
+        parent="crm.crm_menu_config"
+        />
+
+    <menuitem
+        id="menu_travel_destination"
+        name="Destinations"
+        action="action_window_travel_destination"
+        parent="camden_travel.menu_travel_root"
+        />
+
+</odoo>

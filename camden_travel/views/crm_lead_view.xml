@@ -1,0 +1,60 @@
+<odoo>    
+    <data>
+        <record id="view_create_opportunity_simplified" model="ir.ui.view">
+            <field name="model">crm.lead</field>
+            <field name="name">CRM Leads</field>
+            <field name="inherit_id" ref="crm.view_create_opportunity_simplified" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='priority']" position="after">
+                    <field  name="destination_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+
+    <data>
+        <record id="crm_case_form_view_leads" model="ir.ui.view">
+            <field name="model">crm.lead</field>
+            <field name="name">CRM Leads</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_leads" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='tag_ids']" position="after">
+                    <field  name="destination_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+crm.crm_case_form_view_oppor
+
+    <data>
+        <record id="crm_case_form_view_oppor" model="ir.ui.view">
+            <field name="model">crm.lead</field>
+            <field name="name">CRM Leads</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_oppor" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='tag_ids']" position="after">
+                    <field  name="destination_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+
+    <data>
+        <record id="crm_case_form_view_oppor_sale" model="ir.ui.view">
+            <field name="model">crm.lead</field>
+            <field name="name">CRM lead</field>
+            <field name="inherit_id" ref="sale_crm.crm_case_form_view_oppor" />
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='554']" position="attributes">
+                    <attribute name="context">{'search_default_partner_id': partner_id,
+                                  'default_partner_id': partner_id,
+                                  'default_team_id': team_id,
+                                  'default_campaign_id': campaign_id,
+                                  'default_medium_id': medium_id,
+                                  'default_source_id': source_id,
+                                  'default_destination_id': destination_id}</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
