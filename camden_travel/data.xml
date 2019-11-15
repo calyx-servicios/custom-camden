@@ -1,0 +1,27 @@
+<odoo>    
+    <data>        
+		<record id="project.menu_main_pm" model="ir.ui.menu" >
+		    <field name="sequence">7</field>
+		</record>  
+
+
+		<record id="sale.sale_menu_root" model="ir.ui.menu" >
+		    <field name="sequence">8</field>
+		</record>
+
+
+
+		<record id="product.product_template_action" model="ir.actions.act_window" >
+		    <field name="context">{"search_default_consumable": 1, 'default_type': 'service', 'default_service_tracking': 'project_only'}</field>
+		</record>
+
+
+		<record id="account.product_product_action_sellable" model="ir.actions.act_window" >
+		    <field name="context">{"search_default_consumable": 1, 'default_type': 'service', 'default_service_tracking': 'project_only'}</field>
+		</record>
+
+
+    </data>      
+</odoo>    
+
+

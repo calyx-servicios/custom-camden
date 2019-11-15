@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* camden_travel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 14:06+0000\n"
+"PO-Revision-Date: 2019-11-13 17:10-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.2.4\n"
+
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_crm_lead_age
+msgid "Age"
+msgstr "Edad"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_name
+msgid "City"
+msgstr "Ciudad"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_country_id
+msgid "Country"
+msgstr "País"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_crm_lead_destination_id
+#: model:ir.model.fields,field_description:camden_travel.field_sale_order_destination_id
+msgid "Destination"
+msgstr "Destination"
+
+#. module: camden_travel
+#: model:ir.ui.menu,name:camden_travel.menu_travel_destination
+msgid "Destinations"
+msgstr "Destinations"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_id
+msgid "ID"
+msgstr "ID"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización realizada por"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_travel_destination_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: camden_travel
+#: model:ir.model,name:camden_travel.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: camden_travel
+#: model:ir.model,name:camden_travel.model_sale_order
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: camden_travel
+#: model:ir.actions.act_window,name:camden_travel.action_window_travel_destination
+msgid "Travel Destination"
+msgstr "Destinos"
+
+#. module: camden_travel
+#: model:ir.ui.menu,name:camden_travel.menu_travel_root
+msgid "Travels"
+msgstr "Destinos"
+
+#. module: camden_travel
+#: model:ir.model,name:camden_travel.model_travel_destination
+msgid "travel.destination"
+msgstr "travel.destination"
+
+#. module: project
+#: model:ir.ui.menu,name:project.menu_main_pm
+msgid "Project"
+msgstr "Seguimiento de Viaje"
+
+#. modules: crm, project
+#: model:ir.model.fields,field_description:crm.field_crm_lead_tag_ids
+#: model:ir.actions.act_window,name:project.project_tags_action
+#: model:ir.model.fields,field_description:project.field_project_project_tag_ids
+#: model:ir.model.fields,field_description:project.field_project_task_tag_ids
+#: model:ir.ui.menu,name:project.menu_project_tags_act
+#: model:ir.ui.view,arch_db:project.project_tags_form_view
+msgid "Tags"
+msgstr "UPK"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_category_id_893
+#: model:ir.model.fields,field_description:base.field_res_users_category_id
+msgid "Tags"
+msgstr "UPK"
+

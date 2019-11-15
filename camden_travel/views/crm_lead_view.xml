@@ -21,10 +21,13 @@
                 <xpath expr="//field[@name='tag_ids']" position="after">
                     <field  name="destination_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
                 </xpath>
+                <xpath expr="//field[@name='function']" position="after">
+                    <field  name="age"/>
+                </xpath>
             </field>
         </record>
     </data>
-crm.crm_case_form_view_oppor
+
 
     <data>
         <record id="crm_case_form_view_oppor" model="ir.ui.view">
@@ -35,6 +38,10 @@ crm.crm_case_form_view_oppor
                 <xpath expr="//field[@name='tag_ids']" position="after">
                     <field  name="destination_id" options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
                 </xpath>
+                <xpath expr="//field[@name='function']" position="after">
+                    <field  name="age"/>
+                </xpath>
+
             </field>
         </record>
     </data>
