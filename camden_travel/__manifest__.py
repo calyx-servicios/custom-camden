@@ -16,7 +16,7 @@
     'version': '0.1',
 
 
-    'depends': ['crm', 'account', 'sale_crm', 'sale', 'project', 'sale_timesheet'],
+    'depends': ['crm', 'account', 'sale_crm', 'sale', 'project', 'sale_timesheet', 'project_category'],
 
 
     'data': [
