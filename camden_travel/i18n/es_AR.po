@@ -117,13 +117,13 @@ msgstr "Seguimiento de Viaje"
 #: model:ir.ui.menu,name:project.menu_project_tags_act
 #: model:ir.ui.view,arch_db:project.project_tags_form_view
 msgid "Tags"
-msgstr "UPK"
+msgstr "UKP"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category_id_893
 #: model:ir.model.fields,field_description:base.field_res_users_category_id
 msgid "Tags"
-msgstr "UPK"
+msgstr "UKP"
 
 #. module: project_category
 #: model:ir.actions.act_window,name:project_category.action_project_type
@@ -134,4 +134,4 @@ msgstr "UPK"
 #: model:ir.ui.view,arch_db:project_category.project_type_form
 #: model:ir.ui.view,arch_db:project_category.project_type_search
 msgid "Type"
-msgstr "UPK"
+msgstr "UKP"
