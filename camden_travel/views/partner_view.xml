@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+    <record id="view_partner_inherit_form" model="ir.ui.view">
+        <field name="model">res.partner</field>
+        <field name="name">res.partner.form</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page[1]/field[@name='child_ids']/form/sheet/group/group[2]/field[@name='comment']" position="after">
+                   <field name="afip_responsability_type_id" options="{'no_open': True, 'no_create': True}"/>
+                   <field name="main_id_category_id"/>
+                   <field name="main_id_number" />
+            </xpath>
+        </field>
+    </record>
+  </data>
+</odoo>

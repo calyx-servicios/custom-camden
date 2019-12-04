@@ -25,6 +25,7 @@
         'views/destination_view.xml',
         'views/crm_lead_view.xml',
         'views/sale_order_view.xml',
+        "views/partner_view.xml",
     ],
 
     'demo': [
