@@ -52,7 +52,7 @@
             <field name="name">CRM lead</field>
             <field name="inherit_id" ref="sale_crm.crm_case_form_view_oppor" />
             <field name="arch" type="xml">
-                <xpath expr="//button[@name='554']" position="attributes">
+                <xpath expr="//button[@name='%(sale_crm.sale_action_quotations_new)d']" position="attributes">
                     <attribute name="context">{'search_default_partner_id': partner_id,
                                   'default_partner_id': partner_id,
                                   'default_team_id': team_id,
