@@ -9,4 +9,7 @@ class Partner(models.Model):
     _inherit = "res.partner"
 
 
-    age = fields.Integer(string='Age') 
+    age = fields.Integer(string='Age')
+    passport = fields.Integer(string='Passport')
+    passport_expiration = fields.Date(string='Passport expiration')
+    travel_date = fields.Date(string='Travel date')

@@ -135,3 +135,23 @@ msgstr "UKP"
 #: model:ir.ui.view,arch_db:project_category.project_type_search
 msgid "Type"
 msgstr "UKP"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_res_partner_passport
+#: model:ir.model.fields,field_description:camden_travel.field_res_users_passport
+msgid "Passport"
+msgstr "Pasaporte"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_res_partner_passport_expiration
+#: model:ir.model.fields,field_description:camden_travel.field_res_users_passport_expiration
+msgid "Passport expiration"
+msgstr "Vencimiento del pasaporte"
+
+#. module: camden_travel
+#: model:ir.model.fields,field_description:camden_travel.field_res_partner_travel_date
+#: model:ir.model.fields,field_description:camden_travel.field_res_users_travel_date
+msgid "Travel date"
+msgstr "Fecha del viaje"
+
+
