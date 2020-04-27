@@ -1,0 +1,7 @@
+<odoo>
+    <template id="ukp_management_assets" inherit_id="web.assets_backend" name="ukp_management assets">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/ukp_management/static/src/css/ukp_management.css"/>
+        </xpath>
+    </template>
+</odoo> 

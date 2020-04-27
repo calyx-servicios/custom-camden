@@ -1,0 +1,39 @@
+<odoo>
+    <!-- View Form -->
+    <record id="view_project_project_inherit_form" model="ir.ui.view">
+        <field name="model">project.project</field>
+        <field name="name">project.project.form</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="ukp_ids" widget="many2many_tags" force_save="1"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Kanban -->
+    <record id="view_project_project_inherit_kanban" model="ir.ui.view">
+        <field name="model">project.project</field>
+        <field name="name">project.project.kanban</field>
+        <field name="inherit_id" ref="project.view_project_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('o_primary')]//strong" position="after">
+                <field name="ukp_ids" />
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Search -->
+    <record id="view_project_project_inherit_search" model="ir.ui.view">
+        <field name="model">project.project</field>
+        <field name="name">project.project.search</field>
+        <field name="inherit_id" ref="project.view_project_project_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="ukp_ids" filter_domain="[('ukp_ids', '=', self)]" />
+                <filter string="UKP" domain="[]" context="{'group_by':'ukp_id_to_group_by'}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

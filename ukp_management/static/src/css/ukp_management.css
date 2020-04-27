@@ -1,0 +1,12 @@
+.badge {
+    padding: 3px 7px 3px 7px;
+    background-color: #433e39 !important;
+}
+
+.align_left {
+    text-align: left !important;
+}
+
+.o_view_manager_content > div > .table-responsive > .o_list_view thead tr:nth-child(1) th {
+    text-align: left !important;
+}
