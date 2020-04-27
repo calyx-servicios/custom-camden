@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* ukp_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-27 06:54+0000\n"
+"PO-Revision-Date: 2020-04-27 06:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ukp_management
+#: model:ir.ui.view,arch_db:ukp_management.view_project_task_inherit_kanban
+msgid "<span>UKP </span>"
+msgstr "<span>UKP </span>"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_id
+msgid "ID"
+msgstr "ID"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización realizada por"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_project_project
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_sale_order
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_project_task
+msgid "Task"
+msgstr "Tarea"
+
+#. module: ukp_management
+#: model:ir.ui.view,arch_db:ukp_management.view_account_invoice_inherit_search
+#: model:ir.ui.view,arch_db:ukp_management.view_crm_lead_inherit_search
+#: model:ir.ui.view,arch_db:ukp_management.view_partner_inherit_search
+#: model:ir.ui.view,arch_db:ukp_management.view_project_project_inherit_search
+#: model:ir.ui.view,arch_db:ukp_management.view_project_task_inherit_search
+#: model:ir.ui.view,arch_db:ukp_management.view_sale_order_inherit_search
+msgid "UKP"
+msgstr "UKP"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_account_invoice_ukp_id_to_group_by
+#: model:ir.model.fields,field_description:ukp_management.field_crm_lead_ukp_id_to_group_by
+#: model:ir.model.fields,field_description:ukp_management.field_project_project_ukp_id_to_group_by
+#: model:ir.model.fields,field_description:ukp_management.field_project_task_ukp_id_to_group_by
+#: model:ir.model.fields,field_description:ukp_management.field_res_partner_ukp_id_to_group_by
+#: model:ir.model.fields,field_description:ukp_management.field_res_users_ukp_id_to_group_by
+#: model:ir.model.fields,field_description:ukp_management.field_sale_order_ukp_id_to_group_by
+msgid "UKP ID to group"
+msgstr "ID UKP para agrupar"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_ukp_ukp_id
+msgid "UKP Identification"
+msgstr "Identificación UKP"
+
+#. module: ukp_management
+#: model:ir.model.fields,field_description:ukp_management.field_account_invoice_ukp_ids
+#: model:ir.model.fields,field_description:ukp_management.field_crm_lead_ukp_ids
+#: model:ir.model.fields,field_description:ukp_management.field_project_project_ukp_ids
+#: model:ir.model.fields,field_description:ukp_management.field_project_task_ukp_ids
+#: model:ir.model.fields,field_description:ukp_management.field_res_partner_ukp_ids
+#: model:ir.model.fields,field_description:ukp_management.field_res_users_ukp_ids
+#: model:ir.model.fields,field_description:ukp_management.field_sale_order_ukp_ids
+msgid "UKP Identifications"
+msgstr "Identificaciones UKP"
+
+#. module: ukp_management
+#: model:ir.actions.act_window,name:ukp_management.action_ukp
+#: model:ir.ui.menu,name:ukp_management.menu_ukp
+msgid "UKP Management"
+msgstr "Administración UKP"
+
+#. module: ukp_management
+#: model:ir.model,name:ukp_management.model_ukp
+msgid "ukp"
+msgstr "ukp"
+
