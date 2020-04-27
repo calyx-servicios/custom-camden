@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
     "name": "UKP Management",
-    "summary": "This Module adds the UKP field for Partners throug CRM, Contacts, Sale Order, Project and Account",
+    "summary": "This Module adds the UKP field for Partners through CRM, Contacts, Sale Order, Project and Account",
     "version": "11.0.1.0.0",
     # see https://odoo-community.org/page/development-status
     "development_status": "Production/Stable",
