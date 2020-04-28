@@ -117,24 +117,13 @@ msgstr "Seguimiento de Viaje"
 #: model:ir.ui.menu,name:project.menu_project_tags_act
 #: model:ir.ui.view,arch_db:project.project_tags_form_view
 msgid "Tags"
-msgstr "UKP"
+msgstr "Etiquetas"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category_id_893
 #: model:ir.model.fields,field_description:base.field_res_users_category_id
 msgid "Tags"
-msgstr "UKP"
-
-#. module: project_category
-#: model:ir.actions.act_window,name:project_category.action_project_type
-#: model:ir.model.fields,field_description:project_category.field_project_project_type_id
-#: model:ir.model.fields,field_description:project_category.field_project_task_type_id_9597
-#: model:ir.ui.view,arch_db:project_category.project_search
-#: model:ir.ui.view,arch_db:project_category.project_task_search
-#: model:ir.ui.view,arch_db:project_category.project_type_form
-#: model:ir.ui.view,arch_db:project_category.project_type_search
-msgid "Type"
-msgstr "UKP"
+msgstr "Etiquetas"
 
 #. module: camden_travel
 #: model:ir.model.fields,field_description:camden_travel.field_res_partner_passport
